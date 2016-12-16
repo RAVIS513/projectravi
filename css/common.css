@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+
+#head-contents {
+	height: 500px;
+	margin-bottom: 60px;
+}
+#head-contents-inner {
+	margin: 50px;
+}
+#head-detail {
+	font-size: 21px;
+}
+
+hr.section-divider {
+	margin: 80px 0px;
+}
+.section-detail {
+	font-size: 21px;
+}
+
+.text-gray {
+	color: #777;
+}
+.text-blue {
+	color: #77F;
+}
+
+
+/****** Responsive *******/
+@media (min-width: 768px) {
+	.navbar-wrapper {
+		margin-top: 20px;
+	}
+	.navbar-wrapper .container {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.navbar-wrapper .navbar {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.navbar-wrapper .navbar {
+		border-radius: 4px;
+	}
+}
