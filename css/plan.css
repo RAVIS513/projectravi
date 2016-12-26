@@ -1,2 +1,10 @@
 @CHARSET "UTF-8";
 
+.section-detail-title {
+	font-weight: bold;
+	margin-top: 2em;
+}
+
+.section-detail-contents {
+	margin-left: 1em;
+}
